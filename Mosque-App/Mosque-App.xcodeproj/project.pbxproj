@@ -11,6 +11,7 @@
 		8BDD164D289A6BA300445BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD164C289A6BA300445BA2 /* ContentView.swift */; };
 		8BDD164F289A6BA400445BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD164E289A6BA400445BA2 /* Assets.xcassets */; };
 		8BDD1652289A6BA400445BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDD1651289A6BA400445BA2 /* Preview Assets.xcassets */; };
+		8BDD165D289A6D3C00445BA2 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD165C289A6D3C00445BA2 /* LocationsDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8BDD164C289A6BA300445BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BDD164E289A6BA400445BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BDD1651289A6BA400445BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BDD165C289A6D3C00445BA2 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,10 @@
 		8BDD1649289A6BA300445BA2 /* Mosque-App */ = {
 			isa = PBXGroup;
 			children = (
+				8BDD165B289A6D2800445BA2 /* Views */,
+				8BDD165A289A6D2300445BA2 /* ViewModels */,
+				8BDD1659289A6D1D00445BA2 /* Models */,
+				8BDD1658289A6D1000445BA2 /* DataServices */,
 				8BDD164A289A6BA300445BA2 /* Mosque_AppApp.swift */,
 				8BDD164C289A6BA300445BA2 /* ContentView.swift */,
 				8BDD164E289A6BA400445BA2 /* Assets.xcassets */,
@@ -65,6 +71,35 @@
 				8BDD1651289A6BA400445BA2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BDD1658289A6D1000445BA2 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				8BDD165C289A6D3C00445BA2 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		8BDD1659289A6D1D00445BA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BDD165A289A6D2300445BA2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8BDD165B289A6D2800445BA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +174,7 @@
 			files = (
 				8BDD164D289A6BA300445BA2 /* ContentView.swift in Sources */,
 				8BDD164B289A6BA300445BA2 /* Mosque_AppApp.swift in Sources */,
+				8BDD165D289A6D3C00445BA2 /* LocationsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
