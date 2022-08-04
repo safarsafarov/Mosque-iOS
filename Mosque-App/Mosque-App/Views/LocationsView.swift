@@ -1,10 +1,3 @@
-//
-//  LocationView.swift
-//  Mappy
-//
-//  Created by Safar Safarov on 19/07/22.
-//
-
 import SwiftUI
 import MapKit
 

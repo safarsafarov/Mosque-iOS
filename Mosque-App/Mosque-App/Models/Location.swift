@@ -1,20 +1,20 @@
-//
-//  Location.swift
-//  Mosque-App
-//
-//  Created by Safar Safarov on 03/08/22.
-//
+import Foundation
+import MapKit
 
-import SwiftUI
-
-struct Location: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Location: Identifiable, Equatable{
+    let name: String
+    let cityName: String
+    let coordinates: CLLocationCoordinate2D
+    let description: String
+    let imageNames: [String]
+    let link: String
+    
+    var id: String {
+        name + cityName
     }
-}
-
-struct Location_Previews: PreviewProvider {
-    static var previews: some View {
-        Location()
+    
+    // Equatable
+    static func == (lhs: Location, rhs: Location) -> Bool {
+        lhs.id == rhs.id
     }
 }
