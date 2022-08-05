@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Shared
+//  Mosque-App
 //
-//  Created by Safar Safarv on 31/07/22.
+//  Created by Safar Safarov on 03/08/22.
 //
 
 import SwiftUI
