@@ -5,7 +5,7 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "Al-Qiblatayn Mosque",
+            name: "Al-Qiblatayn",
             cityName: "Madina",
             coordinates: CLLocationCoordinate2D(latitude: 11.3539, longitude: 43.4739),
             description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
@@ -16,7 +16,7 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Colosseum"),
         Location(
-            name: "Jawatha Mosque",
+            name: "Jawatha",
             cityName: "Al-Kilabyah",
             coordinates: CLLocationCoordinate2D(latitude: 25.4698, longitude: 49.6785),
             description: "The Pantheon is a former Roman temple and since the year 609 a Catholic church, in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus.",
@@ -38,7 +38,7 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
         Location(
-            name: "Al-Asha'ir Mosque",
+            name: "Al-Asha'ir",
             cityName: "Zabid",
             coordinates: CLLocationCoordinate2D(latitude: 18.1136, longitude: 43.1071),
             description: "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Locally nicknamed 'La dame de fer', it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world.",
@@ -60,14 +60,58 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
         Location(
-            name: "Al-Hadi Mosque",
-            cityName: "Paris",
+            name: "Al-Hadi",
+            cityName: "Sa'dah",
             coordinates: CLLocationCoordinate2D(latitude: 21.568, longitude: 39.1708),
             description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
             imageNames: [
                 "Al-HadiMosque1",
                 "Al-HadiMosque2",
                 "Al-HadiMosque3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Khamis Mosque",
+            cityName: "Khamis, Manama",
+            coordinates: CLLocationCoordinate2D(latitude: 26.2082, longitude: 50.5483),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "KhamisMosque1",
+                "KhamisMosque2",
+                "KhamisMosque3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Al-Ain",
+            cityName: "Al Ain",
+            coordinates: CLLocationCoordinate2D(latitude: 24.2259, longitude: 55.7468),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Al-Ain1",
+                "Al-Ain2",
+                "Al-Ain3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Al Bidya",
+            cityName: "Fujairah",
+            coordinates: CLLocationCoordinate2D(latitude: 25.4391, longitude: 56.3538),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Al-HadiMosque1",
+                "Al-HadiMosque2",
+                "Al-HadiMosque3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Al-Qibli",
+            cityName: "Jerusalem",
+            coordinates: CLLocationCoordinate2D(latitude: 31.7761, longitude: 35.2358),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Al-Qibli1",
+                "Al-Qibli2",
+                "Al-Qibli3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
     ]
