@@ -4,6 +4,7 @@ import MapKit
 class LocationsDataService {
     
     static let locations: [Location] = [
+        // Al-Qiblatayn
         Location(
             name: "Al-Qiblatayn",
             cityName: "Madina",
@@ -15,6 +16,7 @@ class LocationsDataService {
                 "Al-QiblataynMosque3",
             ],
             link: "https://en.wikipedia.org/wiki/Colosseum"),
+        // Al-Jawatha
         Location(
             name: "Jawatha",
             cityName: "Al-Kilabyah",
@@ -26,6 +28,7 @@ class LocationsDataService {
                 "JawathaMosque3",
             ],
             link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
+        // Sana'a
         Location(
             name: "Sana'a",
             cityName: "Sana'a",
@@ -37,6 +40,7 @@ class LocationsDataService {
                 "Sanaa3",
             ],
             link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
+        // Al-Asha'ir
         Location(
             name: "Al-Asha'ir",
             cityName: "Zabid",
@@ -48,6 +52,7 @@ class LocationsDataService {
                 "Al-AshairMosque3"
             ],
             link: "https://en.wikipedia.org/wiki/Eiffel_Tower"),
+        // Mazin
         Location(
             name: "Mazin",
             cityName: "Samail",
@@ -59,6 +64,7 @@ class LocationsDataService {
                 "MasjidMazin3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Al-Hadi
         Location(
             name: "Al-Hadi",
             cityName: "Sa'dah",
@@ -70,6 +76,7 @@ class LocationsDataService {
                 "Al-HadiMosque3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Khamis
         Location(
             name: "Khamis",
             cityName: "Khamis, Manama",
@@ -81,6 +88,7 @@ class LocationsDataService {
                 "KhamisMosque3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Al-Ain
         Location(
             name: "Al-Ain",
             cityName: "Al Ain",
@@ -92,6 +100,7 @@ class LocationsDataService {
                 "Al-Ain3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Al-Bidya
         Location(
             name: "Al Bidya",
             cityName: "Fujairah",
@@ -103,6 +112,7 @@ class LocationsDataService {
                 "Al-HadiMosque3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Al-Qibli
         Location(
             name: "Al-Qibli",
             cityName: "Jerusalem",
@@ -114,6 +124,7 @@ class LocationsDataService {
                 "Al-Qibli3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Al-Shuaibiyah
         Location(
             name: "Al-Shuaibiyah",
             cityName: "Aleppo",
@@ -125,6 +136,7 @@ class LocationsDataService {
                 "Al-Shuaibiyah3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Ibrahimi
         Location(
             name: "Ibrahimi",
             cityName: "Hebron",
@@ -136,6 +148,7 @@ class LocationsDataService {
                 "Ibrahimi3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Umayyad
         Location(
             name: "Umayyad",
             cityName: "Damascus",
@@ -147,6 +160,7 @@ class LocationsDataService {
                 "Umayyad3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // White Mosque
         Location(
             name: "White Mosque",
             cityName: "Ramla",
@@ -158,6 +172,7 @@ class LocationsDataService {
                 "WhiteMosque3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Al-Omari
         Location(
             name: "Al-Omari",
             cityName: "Bosra",
@@ -169,6 +184,7 @@ class LocationsDataService {
                 "Al-Omari3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        // Great Mosque of Raqqa
         Location(
             name: "Great Mosque of Raqqa",
             cityName: "Bosra",
@@ -180,7 +196,6 @@ class LocationsDataService {
                 "Al-Omari3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
-        
     ]
     
 }
