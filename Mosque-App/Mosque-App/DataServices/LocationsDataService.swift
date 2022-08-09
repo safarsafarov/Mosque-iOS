@@ -27,7 +27,7 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
         Location(
-            name: "Great Mosque of Sana'a",
+            name: "Sana'a",
             cityName: "Sana'a",
             coordinates: CLLocationCoordinate2D(latitude: 15.3694, longitude: 44.1910),
             description: "The Trevi Fountain is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini and several others. Standing 26.3 metres high and 49.15 metres wide, it is the largest Baroque fountain in the city and one of the most famous fountains in the world.",
@@ -49,7 +49,7 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Eiffel_Tower"),
         Location(
-            name: "Masjid Mazin",
+            name: "Mazin",
             cityName: "Samail",
             coordinates: CLLocationCoordinate2D(latitude: 23.3000, longitude: 57.9839),
             description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
@@ -71,7 +71,7 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
         Location(
-            name: "Khamis Mosque",
+            name: "Khamis",
             cityName: "Khamis, Manama",
             coordinates: CLLocationCoordinate2D(latitude: 26.2082, longitude: 50.5483),
             description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
