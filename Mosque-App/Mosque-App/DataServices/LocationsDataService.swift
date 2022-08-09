@@ -114,6 +114,73 @@ class LocationsDataService {
                 "Al-Qibli3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Al-Shuaibiyah",
+            cityName: "Aleppo",
+            coordinates: CLLocationCoordinate2D(latitude: 36.1993, longitude: 37.1527),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Al-Shuaibiyah1",
+                "Al-Shuaibiyah2",
+                "Al-Shuaibiyah3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Ibrahimi",
+            cityName: "Hebron",
+            coordinates: CLLocationCoordinate2D(latitude: 31.5247, longitude: 35.1107),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Ibrahimi1",
+                "Ibrahimi2",
+                "Ibrahimi3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Umayyad",
+            cityName: "Damascus",
+            coordinates: CLLocationCoordinate2D(latitude: 33.5117, longitude: 36.3067),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Umayyad1",
+                "Umayyad2",
+                "Umayyad3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "White Mosque",
+            cityName: "Ramla",
+            coordinates: CLLocationCoordinate2D(latitude: 31.9278, longitude: 34.8658),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "WhiteMosque1",
+                "WhiteMosque2",
+                "WhiteMosque3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Al-Omari",
+            cityName: "Bosra",
+            coordinates: CLLocationCoordinate2D(latitude: 33.8978, longitude: 35.5051),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Al-Omari1",
+                "Al-Omari2",
+                "Al-Omari3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Great Mosque of Raqqa",
+            cityName: "Bosra",
+            coordinates: CLLocationCoordinate2D(latitude: 33.8978, longitude: 35.5051),
+            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            imageNames: [
+                "Al-Omari1",
+                "Al-Omari2",
+                "Al-Omari3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Louvre"),
+        
     ]
     
 }
